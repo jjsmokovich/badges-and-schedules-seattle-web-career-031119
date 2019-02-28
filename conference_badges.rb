@@ -3,7 +3,10 @@ def badge_maker(name)
 end
 
 def badge_batch_creator(names)
+  people = []
   
+  names.each do |name|
+    
 end
 
 def assign_rooms(speakers)
