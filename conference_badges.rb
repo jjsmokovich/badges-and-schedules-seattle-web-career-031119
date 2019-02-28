@@ -3,10 +3,10 @@ def badge_maker(name)
 end
 
 def badge_batch_creator(names)
-  people = []
+  event_speakers = []
   
   names.each do |name|
-    
+    people.push()
 end
 
 def assign_rooms(speakers)
