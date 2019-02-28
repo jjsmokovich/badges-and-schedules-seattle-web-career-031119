@@ -6,7 +6,7 @@ def badge_batch_creator(names)
   event_speakers = []
   
   names.each do |name|
-    people.push("Hello, my name is #{name}.")
+    event_speakers.push("Hello, my name is #{name}.")
   end
   return event_speakers
 end
