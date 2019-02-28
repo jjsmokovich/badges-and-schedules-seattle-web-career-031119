@@ -2,10 +2,10 @@ def badge_maker(name)
  "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(attendees)
   headliners = []
   
-  speakers.each do |name|
+  attendees.each do |name|
     headliners.push("Hello, my name is #{name}.")
   end
   
