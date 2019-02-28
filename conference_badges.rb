@@ -7,7 +7,7 @@ def batch_badge_creator(speakers)
   speakers.each do |name|
     headliners.push("Hello, my name is #{name}.")
   end
-  return nuarray
+  return headliners
 end
 
 def assign_rooms(speakers)
